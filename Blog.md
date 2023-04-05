@@ -1,13 +1,18 @@
-Problem definition: Does AWS’s Comprehend have inherent political bias? 
+# AWS Comprehend
+### Ved Udare, Joshua Jacobs, Will Coupe, Eugene Lim, Austin Cherian
+
+### Problem definition
+
+##### Does AWS’s Comprehend have inherent political bias? 
 
 
-Abstract: 
+### Abstract 
 
 
 AWS Comprehend is a natural language processing (NLP) service provided by Amazon Web Services (AWS). It allows users to extract insights and meaning from unstructured text using machine learning algorithms. Two important key functions amongst a host of others of Comprehend are entity recognition, the ability to identify entities such as people, places, and organizations in a given text, and sentiment analysis, the ability to analyze the sentiment of a given text as either positive, negative, or neutral. In this study, we aim to investigate whether AWS Comprehend exhibits inherent political bias in its sentiment analysis feature. We plan to assess the association between political parties and Comprehend’s sentiment analysis scores by substituting different members of Congress into a political statement.
 
 
-Background: 
+### Background 
 The increasing use of artificial intelligence and machine learning in various aspects of society has raised concerns about political bias in computer algorithms. This bias can shape public opinion and influence people's beliefs and behaviors. For example, search engine result bias has been a significant problem in society, as it can shape public opinion and influence people's beliefs and behaviors. According to a study by Pew Research Center, about 93% of online experiences begin with a search engine, and search engine results can have a significant impact on people's perceptions of various issues. However, there have been concerns about political bias in search engine results. For example, during the 2016 U.S. Presidential election, some people claimed that Google's search results were biased in favor of Hillary Clinton (The Washington Post, 2016). Search engine result bias can also perpetuate stereotypes and limit opportunities for certain groups. According to a report by the Open Society Foundations, search engine algorithms can amplify stereotypes and reinforce prejudice against minority groups, leading to limited access to information and resources (Open Society Foundations, 2018). As search engines become increasingly important sources of information, it's essential that they remain impartial and free from any political bias to ensure that they provide accurate and unbiased information to users.
 
 
@@ -29,7 +34,7 @@ Rozado (2022) acknowledges that ChatGPT is a machine-learning model and, therefo
 Overall, the article provides an interesting insight into how machine learning models like ChatGPT might reflect the political views present in the data they were trained on. However, the author also notes that this does not necessarily mean that ChatGPT or other machine learning models have political beliefs of their own. When algorithms are biased, they can have a significant impact on society. It can reinforce existing prejudices and stereotypes, limit opportunities for certain groups, and perpetuate inequality. Biased algorithms can also undermine public trust in institutions that use them, such as government agencies, law enforcement, and media outlets. As algorithms become more prevalent in our daily lives, it's important that they are transparent and accountable and that measures are taken to ensure that they are free from any political bias. The findings of Rozado (2022) raise the question of whether other AIs like AWS Comprehend also have political leanings. As a result, we aim to do a similar analysis of AWS’s ML, Comprehend, to see if it contains any political bias as well. 
 
 
-Methods:
+### Methods
 We imported a data file from Every Politician (https://everypolitician.org/united-states-of-america/senate/download.html) that contains the names of every Congress member in the 116th Congress (2019) and information about them (social media accounts, state they represent, gender, etc.) 
 We cleaned the data only to include the names of Congressmen, their listed political party affiliations, and their gender. 
 We then converted the political parties into binary (Democrat=1, Republican=0) and gender into binary (female=1, male=0). 
@@ -37,11 +42,11 @@ Then, we created a sentiment function using the sentence “{entity} claims they
 Next, we replaced “{entity}” with the names of each member of Congress, ran a sentiment analysis, and tabulated all the sentiment analysis scores. The sentiment analysis scores included 4 sentiments on a 0-1 scale: a positive, negative, mixed, and neutral score. Additionally, it contained an overall score that filtered for the sentiment with the highest score.
 
 
-Analysis:
+### Analysis
 We created box and whisker plots of neutral scores for each political party and repeated this process with positive and negative scores. 
 
 
-Conclusions: 
+### Conclusions
 
 
 
