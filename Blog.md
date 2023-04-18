@@ -85,7 +85,7 @@ Below are four regression tables for each phrase type.
 
 ![Table 3](https://quicklatex.com/cache3/73/ql_0748f6b780d0086a43a0c3b39fe17273_l3.png)
 
-**Table 5: Names Only**
+**Table 4: Names Only**
 
 ![Table 4](https://quicklatex.com/cache3/85/ql_c80cebb1f18759fe4c577a749be7cb85_l3.png)
 
