@@ -47,6 +47,7 @@ We created box and whisker plots of neutral scores for each political party and 
 ![Results Visuals](joshuajacobs2020/QTM-350---Group-4/Positive.png)
 ![Results Visuals](joshuajacobs2020/QTM-350---Group-4/Negative.png)
 
+
 #### Regression Results
 (1) Non-Neutral Scores
 (2) Positive Scores
