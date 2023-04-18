@@ -68,22 +68,24 @@ These box and whisker plots show the distribution of neutral, positive, and nega
 ![Results Visuals](https://github.com/joshuajacobs2020/QTM-350---Group-4/raw/main/Positive%20Scores.png)
 ![Results Visuals](https://github.com/joshuajacobs2020/QTM-350---Group-4/raw/main/Negative%20Scores.png)
 
-On average, Republicans appear to score about .2% higher positive scores and about 1.2% higher negative scores than Democrats. By contrast, Democrats tended to score about 2% higher neutral scores. This suggests that there could be a potential 
+On average, Republicans appear to score about .2% higher positive scores and about 1.2% higher negative scores than Democrats. By contrast, Democrats tended to score about 2% higher neutral scores. This suggests that there could be a potential bias in Comprehend against Republicans; however, these differences are very small. It is difficult to tell whether or not these discrepancies occur through random error or through a true bias within Comprehend. We can may be able to better understand the relationship with political affiliation and sentiment scores if we employ linear regression.
 
 #### Regression Results
-1. Negative Sentiments:
+Below are four regression tables for each phrase type.
+
+**Table 1: Negative Phrases**
 
 ![Table 1](https://quicklatex.com/cache3/ff/ql_a74a31d5e59f0f057f4ee9de0dae5fff_l3.png)
 
-2. Positive Sentiments
+**Table 2: Positive Phrases**
 
 ![Table 2](https://quicklatex.com/cache3/2e/ql_ac09492b88f7afe371599438d4c5832e_l3.png)
 
-3. Neutral Sentiments
+**Table 3: Neutral Phrases**
 
 ![Table 3](https://quicklatex.com/cache3/73/ql_0748f6b780d0086a43a0c3b39fe17273_l3.png)
 
-4. Names Only
+**Table 5: Names Only**
 
 ![Table 4](https://quicklatex.com/cache3/85/ql_c80cebb1f18759fe4c577a749be7cb85_l3.png)
 
