@@ -59,12 +59,16 @@ Every Senator's name will be paired with each of these phrases to create full se
 
 Additionally, we generated a list of 98 random names to be paired with these phrases and analyzed by Comprehend. These names come from a public dataset created by the [Social Security Administration](https://console.cloud.google.com/marketplace/details/social-security-administration/us-names?project=qtm350). This dataset contains all names from Social Security card applications for births that occurred in the United States after 1879. These random names can help us understand whether the politicans' names generate greater biases in sentiment scores due to their party affiliation or by random chance.
 
+Lastly, we can also run a sentiment analysis on the entity names alone. If Comprehend generates biased results when generating sentiment scores relating to political figures, it's possible that Comprehend could detect the names alone to be positive or negative depending on their political affiliation.
+
 ### Analysis
-We created box and whisker plots of neutral scores for each political party and repeated this process with positive and negative scores. 
+These box and whisker plots show the distribution of neutral, positive, and negative scores across all phrases.
+
 ![Results Visuals](https://github.com/joshuajacobs2020/QTM-350---Group-4/raw/main/Neutral%20Scores.png)
 ![Results Visuals](https://github.com/joshuajacobs2020/QTM-350---Group-4/raw/main/Positive%20Scores.png)
 ![Results Visuals](https://github.com/joshuajacobs2020/QTM-350---Group-4/raw/main/Negative%20Scores.png)
 
+On average, Republicans appear to score about .2% higher positive scores and about 1.2% higher negative scores than Democrats. By contrast, Democrats tended to score about 2% higher neutral scores. This suggests that there could be a potential 
 
 #### Regression Results
 1. Negative Sentiments:
