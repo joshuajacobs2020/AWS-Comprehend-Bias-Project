@@ -29,6 +29,9 @@ Rozado (2022) acknowledges that ChatGPT is a machine-learning model and, therefo
 
 Overall, the article provides an interesting insight into how machine learning models like ChatGPT might reflect the political views present in the data they were trained on. However, the author also notes that this does not necessarily mean that ChatGPT or other machine learning models have political beliefs of their own. When algorithms are biased, they can have a significant impact on society. It can reinforce existing prejudices and stereotypes, limit opportunities for certain groups, and perpetuate inequality. Biased algorithms can also undermine public trust in institutions that use them, such as government agencies, law enforcement, and media outlets. As algorithms become more prevalent in our daily lives, it's important that they are transparent and accountable and that measures are taken to ensure that they are free from any political bias. The findings of Rozado (2022) raise the question of whether other AIs like AWS Comprehend also have political leanings. As a result, we aim to do a similar analysis of AWS’s ML, Comprehend, to see if it contains any political bias as well. 
 
+### Hypothesis
+We hypothesize that AWS Comprehend would have some inherent political bias because given the ChatGPT study performed by Rozado in 2022 which regularly found that ChatGPT consistently produced left-leaning responses to poltical orientation quizzes, we think it is reasonable to assume that AWS Comprehend would produce similarly biased responses. ChatGPT has been trained on a massive amount of data and contains more than 175 billion parameters, and we believe that if training on a huge amount of data still yielded politically biased responses, that the same will be the case for AWS Comprehend.
+
 
 ### Methods
 We imported a data file from Every Politician (https://everypolitician.org/united-states-of-america/senate/download.html) that contains the names of every Congress member in the 116th Congress (2019) and information about them (social media accounts, state they represent, gender, etc.) 
@@ -40,6 +43,9 @@ Next, we replaced “{entity}” with the names of each member of Congress, ran 
 
 ### Analysis
 We created box and whisker plots of neutral scores for each political party and repeated this process with positive and negative scores. 
+![Results Visuals](joshuajacobs2020/QTM-350---Group-4/Neutral.png)
+![Results Visuals](joshuajacobs2020/QTM-350---Group-4/Positive.png)
+![Results Visuals](joshuajacobs2020/QTM-350---Group-4/Negative.png)
 
 #### Regression Results
 (1) Non-Neutral Scores
@@ -51,7 +57,7 @@ We created box and whisker plots of neutral scores for each political party and 
 
 
 ### Conclusions
-
+We can conclude from our results that AWS Comprehend does not exhibit any significant political bias in its responses. Our box and whisker plots appear to show Republicans having higher positive and negative scores and Democrats having higher neutral scores, but these results are not statistically significant. There is the possibility that we have not taken a look at other variables that may be more explanatory than gender and party alignment, and that may be able to uncover a statistically significant relationship within the data, but as of now our results do not suggests that AWS Comprehend exhibits political bias.
 
 
 References:
