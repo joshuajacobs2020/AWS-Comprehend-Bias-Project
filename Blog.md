@@ -44,8 +44,8 @@ Next, we replaced “{entity}” with the names of each member of Congress, ran 
 ### Analysis
 We created box and whisker plots of neutral scores for each political party and repeated this process with positive and negative scores. 
 ![Results Visuals](https://github.com/joshuajacobs2020/QTM-350---Group-4/raw/main/Neutral%20Scores.png)
-![Results Visuals](joshuajacobs2020/QTM-350---Group-4/Positive.png)
-![Results Visuals](joshuajacobs2020/QTM-350---Group-4/Negative.png)
+![Results Visuals](https://github.com/joshuajacobs2020/QTM-350---Group-4/raw/main/Positive%20Scores.png)
+![Results Visuals](https://github.com/joshuajacobs2020/QTM-350---Group-4/raw/main/Negative%20Scores.png)
 
 
 #### Regression Results
