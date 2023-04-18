@@ -71,7 +71,7 @@ These box and whisker plots show the distribution of neutral, positive, and nega
 On average, Republicans appear to score about .2% higher positive scores and about 1.2% higher negative scores than Democrats. By contrast, Democrats tended to score about 2% higher neutral scores. This suggests that there could be a potential bias in Comprehend against Republicans; however, these differences are very small. It is difficult to tell whether or not these discrepancies occur through random error or through a true bias within Comprehend. We can may be able to better understand the relationship with political affiliation and sentiment scores if we employ linear regression.
 
 #### Regression Results
-Below are four regression tables for each phrase type. Each table contains four regression tables which take the following form:
+Below are four regression tables for each phrase type. Each table contains four regression models which take the following form:
 
 (1) $NonNeutralScores_i = \beta_0 + \beta_1 Democrat_i + \beta_2 Gender_i + \varepsilon_i$ 
 
@@ -80,6 +80,8 @@ Below are four regression tables for each phrase type. Each table contains four 
 (3) $MixedScores_i = \beta_0 + \beta_1 Democrat_i + \beta_2 Gender_i + \varepsilon_i$ 
 
 (4) $NegativeScores_i = \beta_0 + \beta_1 Democrat_i + \beta_2 Gender_i + \varepsilon_i$ 
+
+Each of these models were computed with robust standard errors.
 
 **Table 1: Negative Phrases**
 
@@ -97,6 +99,7 @@ Below are four regression tables for each phrase type. Each table contains four 
 
 ![Table 4](https://quicklatex.com/cache3/85/ql_c80cebb1f18759fe4c577a749be7cb85_l3.png)
 
+As our box and whisker plots suggested, Republicans scored small but statistically significant higher positive sentiment scores on positive phrases by about 0.3%. However, they scored 7.8% higher negative sentiment scores on negative phrases. These relationships were both significant at a 99% confidence interval (p<.01). For the neutral and blank phrases, there was no statistically significant relationship between party affiliation and sentiment scores.
 
 ### Conclusions
 We can conclude from our results that AWS Comprehend does not exhibit any significant political bias in its responses. Our box and whisker plots appear to show Republicans having higher positive and negative scores and Democrats having higher neutral scores, but these results are not statistically significant. There is the possibility that we have not taken a look at other variables that may be more explanatory than gender and party alignment, and that may be able to uncover a statistically significant relationship within the data, but as of now our results do not suggests that AWS Comprehend exhibits political bias.
