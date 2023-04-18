@@ -71,7 +71,15 @@ These box and whisker plots show the distribution of neutral, positive, and nega
 On average, Republicans appear to score about .2% higher positive scores and about 1.2% higher negative scores than Democrats. By contrast, Democrats tended to score about 2% higher neutral scores. This suggests that there could be a potential bias in Comprehend against Republicans; however, these differences are very small. It is difficult to tell whether or not these discrepancies occur through random error or through a true bias within Comprehend. We can may be able to better understand the relationship with political affiliation and sentiment scores if we employ linear regression.
 
 #### Regression Results
-Below are four regression tables for each phrase type.
+Below are four regression tables for each phrase type. Each table contains four regression tables which take the following form:
+
+(1) $NonNeutralScores_i = \beta_0 + \beta_1 Democrat_i + \beta_2 Gender_i + \varepsilon_i$ 
+
+(2) $PositiveScores_i = \beta_0 + \beta_1 Democrat_i + \beta_2 Gender_i + \varepsilon_i$ 
+
+(3) $MixedScores_i = \beta_0 + \beta_1 Democrat_i + \beta_2 Gender_i + \varepsilon_i$ 
+
+(4) $NegativeScores_i = \beta_0 + \beta_1 Democrat_i + \beta_2 Gender_i + \varepsilon_i$ 
 
 **Table 1: Negative Phrases**
 
