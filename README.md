@@ -1,6 +1,7 @@
 ## AWS Comprehend Sentiment Analysis
 
-Link to our blog: https://mlwebsitepoliticalbias.s3.amazonaws.com/HTMLBlog.html
+**Link to our blog:** https://mlwebsitepoliticalbias.s3.amazonaws.com/HTMLBlog.html
+
 The **purpose** of this project is to gauge whether or not AWS Comprehend has any sort of political bias by changing the entity given a body of text.
 
 
