@@ -142,7 +142,8 @@ As we can see from this table, average negative scores for Republicans were very
 
 ## Architecture Diagram
 
-This section provides the architecture diagram that displays the flow of different components used in AWS.
+This section provides the architecture diagram that displays the flow of different components used in AWS. Specifically the flow of S3, Sagemaker, and Comprehend's interaction.
+
 ![Architecture Diagram](https://github.com/joshuajacobs2020/QTM-350---Group-4/blob/main/Architecture.png)
 
 ## Conclusions
