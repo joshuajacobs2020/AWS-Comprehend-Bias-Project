@@ -35,7 +35,7 @@ There are a variety of users who may want to reproduce this work if they want to
 
 ### Reproducibility Guide
 
-1. The User should start off reading some background information about the inherent political bias in NLP models. The blog post also includes a step-by-step process of how we analyzed text for people in Congress. This can be accessed here:
+1. The User should start off reading some background information about if there's inherent political bias in NLP models. The blog post also includes a step-by-step process of how we analyzed text for people in Congress. This can be accessed here:
 [Blog.md](https://github.com/joshuajacobs2020/QTM-350---Group-4/blob/main/Blog.md)
 
 2. Visiting  [ComprehendGuide.ipynb](https://github.com/joshuajacobs2020/QTM-350---Group-4/blob/main/ComprehendGuide.ipynb)  next can help guide the user to see how to initialize boto3 and provides an example of a function where one can change the text and entity to see sentiment score for a specific entity. The function is provided here:
