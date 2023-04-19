@@ -106,6 +106,49 @@ While these percentages may seem small, it is important to note that the "overal
 Gender was not a statistically significant predictor of sentiment scores in any of the phrase groups. Resultingly, there is little evidence of a gender bias in Comprehend.
 
 #### Comparison with Random Names Group
+Another way to better understand Comprehend's potential bias is to use our list of random names as a control group. It is possible that different names generate different sentiment scores solely due to random error. We can then compare the sentiment scores of the Democratic and Republican politicans with this collection of random names.
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Negative</th>
+      <th>Positive</th>
+      <th>NonNeutral</th>
+      <th>Mixed</th>
+    </tr>
+    <tr>
+      <th>group</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Democrat</th>
+      <td>0.174217</td>
+      <td>0.160817</td>
+      <td>0.336725</td>
+      <td>0.001692</td>
+    </tr>
+    <tr>
+      <th>Non-Partisan</th>
+      <td>0.204476</td>
+      <td>0.180079</td>
+      <td>0.393740</td>
+      <td>0.009185</td>
+    </tr>
+    <tr>
+      <th>Republican</th>
+      <td>0.200530</td>
+      <td>0.164817</td>
+      <td>0.367347</td>
+      <td>0.002000</td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### Conclusions
