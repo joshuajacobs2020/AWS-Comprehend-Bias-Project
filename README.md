@@ -253,7 +253,7 @@ The main files that will be useful to reproduce this work are:
 
 [DataCreation.ipynb](https://github.com/joshuajacobs2020/QTM-350---Group-4/blob/main/DataCreation.ipynb) - Generating the dataset with a comprehensive overview of how to devise scores for entities. It includes creating dummy variables for variables that are binary, generating different phrases for each entity, and merging the results to be able to perform regression analysis
 
-[Regression Results.ipynb](https://github.com/joshuajacobs2020/QTM-350---Group-4/blob/main/Regression%20Results.ipynb) - This file shows the results of the regression analysis which shows the ANOVA table for positive, negative and neutral scores. The variance has also been calculated to show the precision of the coefficients.
+[Regression Results.ipynb](https://github.com/joshuajacobs2020/QTM-350---Group-4/blob/main/Regression%20Results.ipynb) - This file shows the results of the regression analysis which shows the table for positive, negative, mixed and non-neutral scores. The mean scores have also been calculated across both the experimental and control groups.
 
 [Datasets](https://github.com/joshuajacobs2020/QTM-350---Group-4/tree/main/datasets) - The datasets include a file from [Every Politician](https://everypolitician.org/united-states-of-america/senate/download.html) and cleaned datasets created from python. These datasets primarily include the sentiment scores for people in Congress and random names.
 
