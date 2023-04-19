@@ -106,7 +106,7 @@ While these percentages may seem small, it is important to note that the "overal
 Gender was not a statistically significant predictor of sentiment scores in any of the phrase groups. Resultingly, there is little evidence of a gender bias in Comprehend.
 
 #### Comparison with Random Names Group
-Another way to better understand Comprehend's potential bias is to use our list of random names as a control group. It is possible that different names generate different sentiment scores solely due to random error. We can then compare the sentiment scores of the Democratic and Republican politicans with this collection of random names.
+Another way to better understand Comprehend's potential bias is to use our list of random names as a control group. It is possible that different names generate different sentiment scores solely due to random error. We can then compare the sentiment scores of the Democratic and Republican politicans with this collection of random, non-partisan names.
 
 <table border="1" class="dataframe">
   <thead>
@@ -130,7 +130,7 @@ Another way to better understand Comprehend's potential bias is to use our list 
       <th>Non-Partisan</th>
       <td>0.204476</td>
       <td>0.180079</td>
-      <td>0.393740</td>
+      <td>0.393740</td> 
       <td>0.009185</td>
     </tr>
     <tr>
@@ -143,6 +143,7 @@ Another way to better understand Comprehend's potential bias is to use our list 
   </tbody>
 </table>
 
+As we can see from this table, average negative scores for Republicans were very close with the non-partisan group scores. Democrats, however, tended to score lower negative scores than the control group. This suggests that Comprehend may be biased in giving Democrats lower negative scores, not by giving Republicans higher negative scores. Interestingly, Comprehend detected much lower mixed scores for the Democratic and Republican groups than the control. It is possible that since the politician names are known figures, there is less ambiguity in whether their sentiment scores are positive, negative, or neutral.
 
 ## Conclusions
 We can conclude from our results that AWS Comprehend does not exhibit any significant political bias in its responses. Our box and whisker plots appear to show Republicans having higher positive and negative scores and Democrats having higher neutral scores, but these results are not statistically significant. There is the possibility that we have not taken a look at other variables that may be more explanatory than gender and party alignment, and that may be able to uncover a statistically significant relationship within the data, but as of now our results do not suggests that AWS Comprehend exhibits political bias.
