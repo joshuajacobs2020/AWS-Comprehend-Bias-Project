@@ -258,7 +258,7 @@ The main files that will be useful to reproduce this work are:
 
 [Regression Results.ipynb](https://github.com/joshuajacobs2020/QTM-350---Group-4/blob/main/Regression%20Results.ipynb) - This file shows the results of the regression analysis which shows the ANOVA table for positive, negative and neutral scores. The variance has also been calculated to show the precision of the coefficients.
 
-[Datasets](https://github.com/joshuajacobs2020/QTM-350---Group-4/tree/main/datasets) - The datasets include a file from [Every Politician](https://everypolitician.org/united-states-of-america/senate/download.html) and updated datasets created from python.
+[Datasets](https://github.com/joshuajacobs2020/QTM-350---Group-4/tree/main/datasets) - The datasets include a file from [Every Politician](https://everypolitician.org/united-states-of-america/senate/download.html) and cleaned datasets created from python. These datasets primarily include the sentiment scores for people in Congress and random names.
 
 
 
