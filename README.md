@@ -27,10 +27,10 @@ The purpose of this project was to describe how to use Comprehend API specifical
 
 There are a variety of users who may want to reproduce this work if they want to conduct a sentiment analysis for different entities.
 
-1. Students:  Students can use this project to learn new skills relating to AWS services.
-2. Journalists: Journalists may want to gauge whether the heading of their article has some sort of political bias.
-3. Developers: Developers may want to understand how to use Amazon Comprehend API and see a specific use case especially if it relates to sentiment analysis
-4. Politicians: Politicians can utilize the results from the code provided in order to understand their sentiment from an AI perspective.
+1. **Students**:  Students can use this project to learn new skills relating to AWS services.
+2. **Journalists**: Journalists may want to gauge whether the heading of their article has some sort of political bias.
+3. **Developers**: Developers may want to understand how to use Amazon Comprehend API and see a specific use case especially if it relates to sentiment analysis
+4. **Politicians**: Politicians can utilize the results from the code provided in order to understand their sentiment from an AI perspective.
 
 
 ### Reproducibility Guide
