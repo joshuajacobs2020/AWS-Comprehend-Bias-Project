@@ -35,8 +35,6 @@ There are a variety of users who may want to reproduce this work if they want to
 
 ### Reproducibility Guide
 
-**In order to understand how to use these files, a detailed description is given for the files needed to work and run this code**
-
 1. The User should start off reading some background information about the inherent political bias in NLP models. The blog post also includes a step-by-step process of how we analyzed text for people in Congress. This can be accessed here:
 [Blog.md](https://github.com/joshuajacobs2020/QTM-350---Group-4/blob/main/Blog.md)
 
@@ -246,7 +244,6 @@ plt.savefig('Negative.png')
 ## File Description
 
 The main files that will be useful to reproduce this work are:
-
 
 [Blog.md](https://github.com/joshuajacobs2020/QTM-350---Group-4/blob/main/Blog.md) - Summarizes the problem, background, methods, and analysis in our blog post
 
