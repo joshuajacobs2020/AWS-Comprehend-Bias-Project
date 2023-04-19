@@ -7,7 +7,7 @@ The **purpose** of this project is to gauge whether or not AWS Comprehend has an
 
 ### Research
 
-A comprehensive literature review was conducted  in order to throughly investigate past research on if NLP models have political bias
+A comprehensive literature review was conducted  in order to throughly investigate past research on NLP models and if they have political bias or not.
 * Background knowledge can be found [here](https://mlwebsitepoliticalbias.s3.amazonaws.com/HTMLBlog.html)
 
 ## Project Description
