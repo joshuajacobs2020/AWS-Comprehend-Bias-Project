@@ -245,7 +245,7 @@ senators.loc[senators["gender"] != "female", 'female'] = 0
 
 Here is an example of regression results for positive phrases.
 
-7. A better way to analyze the results are through[visualizations](https://github.com/joshuajacobs2020/QTM-350---Group-4/blob/main/Data%20Visualizations.ipynb). In this file, we created box and whisker plots to hone in on the median positive and negative score for different political affiliations. An example of creating a boxplot is provided. If the user is creating their own data visualizations, the x parameter can be used to plot their own data generated from the sentiment score.
+7. A better way to analyze the results are through [visualizations](https://github.com/joshuajacobs2020/QTM-350---Group-4/blob/main/Data%20Visualizations.ipynb). In this file, we created box and whisker plots to hone in on the median positive and negative score for different political affiliations. An example of creating a boxplot is provided. If the user is creating their own data visualizations, the x parameter can be used to plot their own data generated from the sentiment score.
 
 ```python
 ax.boxplot(x=[Dem3['Negative'], Rep3['Negative']], vert=False)
