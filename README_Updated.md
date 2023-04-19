@@ -241,7 +241,7 @@ senators.loc[senators["gender"] != "female", 'female'] = 0
 
 6. After cleaning the dataset, [regression](https://github.com/joshuajacobs2020/QTM-350---Group-4/blob/main/Regression%20Results.ipynb)  can be used in order to analyze the relatonship between political affilation/gender and sentiment scores. A regression was done for positive, negative, negative and neutral phrases.
 
-![image.png]([Regression Positive Score.png](https://github.com/joshuajacobs2020/QTM-350---Group-4/blob/4459f4a355ad7c954135a7a80aedffe2739a190b/Regression%20Positive%20Score.png))
+![image.png](Regression Positive Score.png](https://github.com/joshuajacobs2020/QTM-350---Group-4/blob/4459f4a355ad7c954135a7a80aedffe2739a190b/Regression%20Positive%20Score.png)
 
 Here is an example of regression results for positive phrases.
 
