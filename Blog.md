@@ -111,18 +111,11 @@ Another way to better understand Comprehend's potential bias is to use our list 
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
+      <th>Group</th>
       <th>Negative</th>
       <th>Positive</th>
       <th>NonNeutral</th>
       <th>Mixed</th>
-    </tr>
-    <tr>
-      <th>group</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
     </tr>
   </thead>
   <tbody>
