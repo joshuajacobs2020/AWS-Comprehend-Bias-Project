@@ -143,7 +143,7 @@ As we can see from this table, average negative scores for Republicans were very
 ## Architecture Diagram
 
 This section provides the architecture diagram that displays the flow of different components used in AWS.
-![Architecture Diagram]("https://github.com/joshuajacobs2020/QTM-350---Group-4/blob/main/Architecture.png")
+![Architecture Diagram]("Architecture.png")
 
 ## Conclusions
 Our box and whisker plots suggest that Republicans have higher positive and negative sentiment scores while Democrats have higher neutral sentiment scores, but we needed to employ linear regression to determine if these relationships are statistically significant. The linear regression results confirm our suspicion that Republicans have higher positive and negative scores. In fact, this relationship between Republicans and both positive and negative scores is statistically significant at a p < 0.01 significance level. However, linear regression does not uncover a statistically significant relationship between Democrats and neutral scores. Moreover, there is no significant relationship to be found between political party affiliation and blank or neutral phrases or between gender and sentiment scores. 
