@@ -272,7 +272,7 @@ The main files that will be useful to reproduce this work are:
 
 [Regression Results.ipynb](https://github.com/joshuajacobs2020/QTM-350---Group-4/blob/main/Regression%20Results.ipynb) - This file shows the results of the regression analysis which shows the ANOVA table for positive, negative and neutral scores. The variance has also been calculated to show the precision of the coefficients.
 
-[Datasets](https://github.com/joshuajacobs2020/QTM-350---Group-4/tree/main/datasets) - The datasets include a file from [Every Politician](https://everypolitician.org/united-states-of-america/senate/download.html)) and updated datasets created from python.
+[Datasets](https://github.com/joshuajacobs2020/QTM-350---Group-4/tree/main/datasets) - The datasets include a file from [Every Politician](https://everypolitician.org/united-states-of-america/senate/download.html) and updated datasets created from python.
 
 
 
@@ -399,19 +399,3 @@ Ved Udare - ved.ravindra.udare@emory.edu 🤗
 
 Project Link: https://github.com/joshuajacobs2020/QTM-350---Group-4
 
-
-```python
-jupyter nbconvert --to markdown README.ipynb --T.md
-
-
-```
-
-    [NbConvertApp] WARNING | pattern 'Updated.ipynb' matched no files
-    [NbConvertApp] Converting notebook README.ipynb to markdown
-    [NbConvertApp] Writing 15476 bytes to README.md
-
-
-
-```python
-
-```
