@@ -140,6 +140,11 @@ Another way to better understand Comprehend's potential bias is to use our list 
 
 As we can see from this table, average negative scores for Republicans were very close with the non-partisan group scores. Democrats, however, tended to score lower negative scores than the control group. This suggests that Comprehend may be biased in giving Democrats lower negative scores, not by giving Republicans higher negative scores. Interestingly, Comprehend detected much lower mixed scores for the Democratic and Republican groups than the control. It is possible that since the politician names are known figures, there is less ambiguity in whether their sentiment scores are positive, negative, or neutral.
 
+## Architecture Diagram
+
+This section provides the architecture diagram that displays the flow of different components used in AWS.
+![Architecture Diagram]("https://github.com/joshuajacobs2020/QTM-350---Group-4/blob/main/Architecture.png")
+
 ## Conclusions
 Our box and whisker plots suggest that Republicans have higher positive and negative sentiment scores while Democrats have higher neutral sentiment scores, but we needed to employ linear regression to determine if these relationships are statistically significant. The linear regression results confirm our suspicion that Republicans have higher positive and negative scores. In fact, this relationship between Republicans and both positive and negative scores is statistically significant at a p < 0.01 significance level. However, linear regression does not uncover a statistically significant relationship between Democrats and neutral scores. Moreover, there is no significant relationship to be found between political party affiliation and blank or neutral phrases or between gender and sentiment scores. 
 
