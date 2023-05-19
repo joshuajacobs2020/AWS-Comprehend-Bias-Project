@@ -376,7 +376,7 @@ Although the overall sentiment score for both is considered "neutral", the entit
 ## Contact
 
 Austin Cherian  - austin.zach.cherian@emory.edu 🚀\
-William Coupe - joshua.jacobs@emory.edu  😀\
+William Coupe - william.coupe@emory.edu  😀\
 Josh Jacobs - joshua.jacobs@emory.edu 👍\
 Eugene Lim - elim27@emory.edu 💯\
 Ved Udare - ved.ravindra.udare@emory.edu 🤗
